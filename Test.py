@@ -1,5 +1,5 @@
 import unittest
-from calclutor import calc
+from Add import calc
 class TestCalculator(unittest.TestCase):
     def test_add(self):
         result =calc.add(4,6)
